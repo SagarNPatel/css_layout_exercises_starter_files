@@ -1,1 +1,58 @@
+nav {
+	height: 120px;
+	position: relative;
+	background-color: grey;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+div.imm {
+	position: fixed;
+}
+nav img { 
+	object-fit: cover;
+}
 
+div.bb {
+	border: 5px solid black;
+}
+
+ul {
+	position: relative;
+}
+
+.one {
+	position: absolute;
+	left: 200px;
+	bottom: 100px;
+}
+
+.two {
+	position: absolute;
+	left: 280px;
+	bottom: 100px;
+}
+
+.three {
+	position: absolute;
+	left: 365px;
+	bottom: 100px;
+}
+
+
+.io {
+	top: 0; 
+	left: 0;
+}
+
+.ioo {
+	position: absolute; 
+	top: 20%; 
+	left: 10%;
+}
+
+.iooo{
+	position: absolute; 
+	top: 60%; 
+	left: 50%; 
+	bottom: 20%;
+}
