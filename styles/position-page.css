@@ -1,58 +1,70 @@
 nav {
-	height: 120px;
-	position: relative;
-	background-color: grey;
-	padding-left: 60px;
-	padding-right: 60px;
-}
-div.imm {
-	position: fixed;
-}
-nav img { 
-	object-fit: cover;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
-div.bb {
-	border: 5px solid black;
+.Container{
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background-color: grey;
 }
 
-ul {
-	position: relative;
+.pp { 
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
 }
 
-.one {
-	position: absolute;
-	left: 200px;
-	bottom: 100px;
+nav ul {
+  display: inline-block;
 }
 
-.two {
-	position: absolute;
-	left: 280px;
-	bottom: 100px;
+nav li {
+  display: inline-block;
 }
 
-.three {
-	position: absolute;
-	left: 365px;
-	bottom: 100px;
+nav li::after {
+  content: "|";
+  margin-left: 5px;
 }
 
+nav a:hover {
+  color: black;
+}
+
+body {
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+}
+
+main{ 
+  padding-top: 90px;
+}
+.box {
+  margin-top: 150px;  
+  width: 600px;
+  height: 300px;
+  position: relative;
+  margin-left:  auto;
+  margin-right: auto;
+  border: 8px dotted green;
+}
+
+.io, .ioo {
+  position: absolute;
+  width: 200px;
+}
 
 .io {
-	top: 0; 
-	left: 0;
+  left: -90px;
+  top: -90px;
 }
 
 .ioo {
-	position: absolute; 
-	top: 20%; 
-	left: 10%;
-}
-
-.iooo{
-	position: absolute; 
-	top: 60%; 
-	left: 50%; 
-	bottom: 20%;
+  right: -60px;
+  bottom: -120px;
 }

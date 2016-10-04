@@ -1,55 +1,55 @@
-body {
-  padding: 10px;
+body * {
+  box-sizing: border-box;
+}
+
+main {
   font-size: 0;
 }
 
-.container-one {
- width: 800px; 
- height: 500px;
+.parent {
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 800px; 
+  border: 1px solid black;
+
+}
+
+.centered {
+  text-align: center;
 }
 
 .inner-one {
    height: 200px;
    width: 50%;
-   background-color: green;
-   display: inline-block;
-   border: 1px black solid;
-   box-sizing: border-box;
 }
 
 .inner-two {
-  width: 50%;
-  height: 200px;
+  width: 33.33%;
+  height: 300px;
+}
+
+.box {
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
   background-color: blue;
-  display: inline-block;
-  border: 1px black solid;
-  box-sizing: border-box;
 }
 
-.inner-three {
-  width: 33.33%;
-  height: 300px;
+.grey {
   background-color: grey;
-  display: inline-block;
-  border: 1px black solid;
-  box-sizing: border-box;
 }
 
-.inner-four {
-  width: 33.33%;
-  height: 300px;
+.black {
   background-color: black;
-  display: inline-block;
-  border: 1px black solid;
-  box-sizing: border-box;
 }
 
-.inner-five {
-  width: 33.33%;
-  height: 300px;
+.orange {
   background-color: orange;
-  display: inline-block;
-  border: 1px black solid;
-  box-sizing: border-box;
 }
-
